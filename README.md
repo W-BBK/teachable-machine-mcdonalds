@@ -1,18 +1,20 @@
 # 🍟 McHire Detector
 
-A webcam classifier that sits on your desk and watches you study.
+You've seen the reel. Someone sets up a camera at their desk, and the second they reach for their phone, their laptop opens the McDonald's careers page. Study, or start your shift.
 
-Pick up your phone, and it opens the McDonald's careers page in your browser.
+This is that, actually built.
 
-Motivation through consequences.
+It's a joke. The joke runs on a real convolutional neural network.
 
 ---
 
 ## What this actually is
 
-A [Teachable Machine](https://teachablemachine.withgoogle.com/) image model exported to Keras, running live against your webcam. Every frame gets classified into one of ten desk-activity categories. If the model is more than **90% confident** that the current class is `using phone`, it opens [jobs.mchire.com](https://jobs.mchire.com) — a gentle reminder of the alternative career path.
+A [Teachable Machine](https://teachablemachine.withgoogle.com/) image model exported to Keras, running live against your webcam. Every frame gets classified into one of ten desk-activity categories. If the model is more than **90% confident** that the current class is `using phone`, it opens [jobs.mchire.com](https://jobs.mchire.com) — McDonald's actual hiring portal, not a gag URL.
 
 There's a 10-second cooldown, so it only ruins your day once every ten seconds instead of sixty times a minute.
+
+The premise is stupid and the pipeline is not. Everything below is the real part: how the frames get classified, what the model can and can't see, and how to retrain it for your own desk.
 
 ## The pipeline
 
