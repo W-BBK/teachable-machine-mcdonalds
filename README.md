@@ -1,4 +1,4 @@
-# 🍟 McHire Detector
+# 🍟 McDonalds Phone IG reel
 
 You've seen the reel. Someone sets up a camera at their desk, and the second they reach for their phone, their laptop opens the McDonald's careers page. Study, or start your shift.
 
