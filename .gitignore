@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Teachable Machine export archives (the extracted model is committed instead)
+*.zip
+converted_keras/
+
+# Editors
+.vscode/
+.idea/
